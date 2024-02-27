@@ -1,0 +1,62 @@
+
+
+.navbar {
+    position: fixed; /* Make the navbar sticky */
+    top: 10px; /* Adjust the distance from the top */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 38, 114, 0.4);
+    padding: 5px 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border-bottom: 0.2px solid #1a3c9b;
+    border: 1px solid #5e5a5a;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    height: 30px;
+    z-index: 1000; /* Ensure it's above other elements on the page */
+}
+
+.logo {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navItem a:hover {
+    color: lightgray;
+    background-color: #b376eb49;
+    border-radius: 15px;
+}
+
+/* Add media query to adjust styles for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 5px 15px;
+        height: 35px;
+    }
+
+    .navItem a {
+        padding: 5px 8px;
+    }
+}

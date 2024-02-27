@@ -1,0 +1,25 @@
+
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 90%; /* Set the image width to 100% of its container */
+  height: 0.05%; /* Adjust the height for a thinner ribbon */
+  display: block;
+}
+
+.cardText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

@@ -1,0 +1,24 @@
+
+.TextCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 270px;
+    margin-top: 20px; /* Add margin at the top to push the TextCard down */
+}
+
+.TextCard p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.TextCard p:first-child {
+    font-weight: bold;
+}
+
+.TextCard p:not(:first-child) {
+    margin-top: 10px;
+}

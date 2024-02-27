@@ -1,0 +1,10 @@
+
+.videoContainer {
+    display: block;
+    margin: 10px 0; 
+  }
+  
+  .videoFrame {
+    border: none;
+  }
+  
