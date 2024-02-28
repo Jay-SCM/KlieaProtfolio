@@ -3,6 +3,7 @@
 import React from 'react';
 import styles from '../styles/CodeSnippet.module.css'; 
 
+
 const CodeSnippet = ({ title, code, isDisplayed }) => {
   // Conditionally apply a class based on whether the card is displayed
   const cardClass = isDisplayed ? styles.displayedCard : styles.snippetContainer;

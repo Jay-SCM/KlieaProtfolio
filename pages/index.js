@@ -90,7 +90,7 @@ import styles from '../styles/Home.module.css';
 const Home = () => {
     // Array containing project data
     const allProjects = [
-        { title: "Project 1", description: "Hero Selector BIO", imageUrl: "/ahri.jpg", href: "/about" },
+        { title: "Project 1", description: "Hero Selector BIO", imageUrl: "/ahri.jpg", href: "/heroCard" },
         { title: "Project 2", description: "Weather Application", imageUrl: "/ahri.jpg", href: "/weather" },
         { title: "Project 3", description: "CodeSnippets", imageUrl: "/ahri.jpg", href: "/codecard" },
         { title: "Project 4", description: "Chat Application", imageUrl: "/ahri.jpg", href: "PLACEHOLDER" },

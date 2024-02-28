@@ -2,6 +2,7 @@
 import React from 'react';
 import CodeSnippetList from '../components/CodeSnippetList';
 
+
 const snippets = [
   { id: 1, title: 'For Loop JavaScript', code: `
 // Define an array of numbers
