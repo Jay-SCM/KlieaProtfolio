@@ -1,14 +1,14 @@
-// pages/AhriBio.js
 
 import React from 'react';
-import AhriBio from '../components/AhriBio'; // Adjust the import path if needed
+import AkaliBioComponent from '../components/AkaliBio'; // Adjust the import path if needed
 
-const AhriBioPage = () => {
+const AkaliBio = () => {
   return (
     <div>
-      <AhriBio />
+      <AkaliBioComponent />
     </div>
   );
 };
 
-export default AhriBioPage;
+export default AkaliBio;
+

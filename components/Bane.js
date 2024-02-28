@@ -4,7 +4,7 @@ import BioBox from './AhriBioBox';
 import VideoPlayer from './VideoPlayer';
 import styles from '../styles/Ahri.module.css';
 
-const Ahri = () => {
+const Bane = () => {
   const videoId = 'DIY3TZpOcDU';
 
   return (
@@ -12,7 +12,7 @@ const Ahri = () => {
       {/* Header Card */}
       <div className={styles.card}>
         <div className={styles.header}>
-          <h2>Ahri</h2>
+          <h2>Bane</h2>
           <p>The Nine-Tailed Fox</p>
         </div>
       </div>
@@ -21,7 +21,7 @@ const Ahri = () => {
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <BioCard
-            imageUrl="/AhriBlue.jpg"
+            imageUrl="/bain2.jpg"
             title=""
             description="The Nine-Tailed Fox"
           />
@@ -39,6 +39,9 @@ const Ahri = () => {
   );
 };
 
-export default Ahri;
+export default Bane;
+
+
+
 
 

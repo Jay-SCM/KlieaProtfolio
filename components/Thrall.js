@@ -21,7 +21,7 @@ const Ahri = () => {
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <BioCard
-            imageUrl="/AhriBlue.jpg"
+            imageUrl="/ThrallG.jpg"
             title=""
             description="The Nine-Tailed Fox"
           />

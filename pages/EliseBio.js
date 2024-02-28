@@ -1,13 +1,13 @@
 
 import React from 'react';
-import AhriBio from '../components/AhriBio'; // Adjust the import path if needed
+import EliseBio from '../components/EliseBio'; // Adjust the import path if needed
 
-const AhriBioPage = () => {
+const EliseBioPage = () => {
   return (
     <div>
-      <AhriBio />
+      <EliseBio />
     </div>
   );
 };
 
-export default AhriBioPage;
+export default EliseBioPage;

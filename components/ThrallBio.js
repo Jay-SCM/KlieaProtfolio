@@ -12,7 +12,7 @@ const AhriBio = () => {
       {/* Content of AhriBio component */}
       <div className={styles.content}>
         {/* Image Card */}
-        <Card imageUrl="/AhriBios.jpg" title="Ahri The Nine Tailed Fox" />
+        <Card imageUrl="/ThrallG.jpg" title="Ahri The Nine Tailed Fox" />
 
         {/* Bio Box */}
         <div className={styles.bioBox}>

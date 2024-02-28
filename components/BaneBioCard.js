@@ -1,9 +1,8 @@
 
-
 import React from 'react';
 import styles from '../styles/BioCard.module.css';
 
-const AhriBioCard = ({ imageUrl, title }) => {
+const BaneBioCard = ({ imageUrl, title }) => {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
@@ -13,5 +12,4 @@ const AhriBioCard = ({ imageUrl, title }) => {
   );
 };
 
-export default AhriBioCard;
-
+export default BaneBioCard;

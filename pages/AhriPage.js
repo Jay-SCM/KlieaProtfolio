@@ -1,5 +1,3 @@
-// pages/AhriPage.js
-// pages/AhriPage.js
 
 import React from 'react';
 import Ahri from '../components/Ahri'; // Import the Ahri component from the components directory

@@ -1,8 +1,8 @@
 
 import React from 'react';
-import AhriBio from '../components/AhriBio'; // Adjust the import path if needed
+import BwonsamdiBio from '../components/BwonsamdiBio'; // Adjust the import path if needed
 
-const AhriBioPage = () => {
+const BwonsamdiBio = () => {
   return (
     <div>
       <AhriBio />
@@ -10,4 +10,4 @@ const AhriBioPage = () => {
   );
 };
 
-export default AhriBioPage;
+export default BwonsamdiBio;

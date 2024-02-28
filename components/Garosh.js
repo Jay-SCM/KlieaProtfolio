@@ -1,10 +1,10 @@
 import React from 'react';
 import BioCard from './BioCard';
-import BioBox from './AhriBioBox';
+import BioBox from './GaroshBioBox';
 import VideoPlayer from './VideoPlayer';
 import styles from '../styles/Ahri.module.css';
 
-const Ahri = () => {
+const Garosh = () => {
   const videoId = 'DIY3TZpOcDU';
 
   return (
@@ -12,8 +12,8 @@ const Ahri = () => {
       {/* Header Card */}
       <div className={styles.card}>
         <div className={styles.header}>
-          <h2>Ahri</h2>
-          <p>The Nine-Tailed Fox</p>
+          <h2>Garosh</h2>
+          <p>Warchief of the iron Hodre</p>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ const Ahri = () => {
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <BioCard
-            imageUrl="/AhriBlue.jpg"
+            imageUrl="/garoshh.jpg"
             title=""
             description="The Nine-Tailed Fox"
           />
@@ -39,6 +39,6 @@ const Ahri = () => {
   );
 };
 
-export default Ahri;
+export default Garosh;
 
 

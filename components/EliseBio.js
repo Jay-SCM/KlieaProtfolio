@@ -1,9 +1,9 @@
 import React from 'react';
 import ColorGrad from './ColorGrad'; // Import the ColorGrad component
 import styles from '../styles/BioBoxExt.module.css';
-import Card from './AhriBioCard';
+import Card from './EliseBioCard';
 
-const AhriBio = () => {
+const EliseBio = () => {
   return (
     <div className={styles.container}>
       {/* Render the ColorGrad component as the background */}
@@ -12,7 +12,7 @@ const AhriBio = () => {
       {/* Content of AhriBio component */}
       <div className={styles.content}>
         {/* Image Card */}
-        <Card imageUrl="/AhriBios.jpg" title="Ahri The Nine Tailed Fox" />
+        <Card imageUrl="/Elise_1.jpg" title="Ahri The Nine Tailed Fox" />
 
         {/* Bio Box */}
         <div className={styles.bioBox}>
@@ -84,4 +84,4 @@ she also hopes to finally leave her stolen memories behind and create new memori
   );
 };
 
-export default AhriBio;
+export default EliseBio;

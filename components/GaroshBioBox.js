@@ -15,7 +15,7 @@ const BioBox = () => {
         Ahri is now traveling the world in search of remnants of her ancestors
         while also trying to replace her stolen memories with ones of her own making.
         </p>
-      <Link href="/AhriBio">
+      <Link href="/GaroshBio">
         <button>BIO</button>
       </Link>
     </div>

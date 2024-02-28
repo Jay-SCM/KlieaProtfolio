@@ -1,13 +1,13 @@
 
 import React from 'react';
-import AhriBio from '../components/AhriBio'; // Adjust the import path if needed
+import GaroshBio from '../components/GaroshBio'; // Adjust the import path if needed
 
-const AhriBioPage = () => {
+const GaroshBioPage = () => {
   return (
     <div>
-      <AhriBio />
+      <GaroshBio />
     </div>
   );
 };
 
-export default AhriBioPage;
+export default GaroshBioPage;

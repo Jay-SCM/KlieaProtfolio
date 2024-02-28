@@ -6,7 +6,7 @@ import styles from '../styles/BioBox.module.css';
 const BioBox = () => {
   return (
     <div className={styles.bioBox}>
-      <p>Innately connected to the magic of the spirit realm,
+      <p>Innately.......... connected to the magic of the spirit realm,
       Ahri is a fox-like vastaya who can manipulate her prey's emotions
        consume their essence—receiving flashes of their memory and insight</p>
        <p>Ahri is a fox-like vastaya who can manipulate her prey's emotions
