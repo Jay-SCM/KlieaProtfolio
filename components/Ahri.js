@@ -2,7 +2,7 @@
 
 import React from 'react';
 import BioCard from './BioCard';
-import BioBox from './BioBox';
+import BioBox from './AhriBioBox';
 import VideoPlayer from './VideoPlayer';
 import styles from '../styles/Ahri.module.css';
 

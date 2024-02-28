@@ -1,10 +1,12 @@
-/* styles/BioBox.module.css */
+/* BioBox.module.css */
 
 .bioBox {
-  padding: 20px;
+  padding: 20px; /* Add padding to keep it from touching sides and the footer */
   border: 1px solid #ccc;
   border-radius: 8px;
+  background-color: #ccc;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effect */
+  margin-bottom: 30px; /* Increase margin-bottom to raise it higher */
 }
 
 .bioBox:hover {
@@ -17,7 +19,7 @@
 }
 
 .bioBox button {
-  background-color: #0070f3; /* Set button background color */
+  background-color: #f30086; /* Set button background color */
   color: #fff; /* Set button text color */
   border: none; /* Remove button border */
   padding: 8px 16px; /* Add padding to button */
@@ -29,3 +31,8 @@
 .bioBox button:hover {
   background-color: #0055b3; /* Darken button background color on hover */
 }
+.link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent */
+}
+
