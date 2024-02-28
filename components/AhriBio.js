@@ -1,17 +1,22 @@
-
 import React from 'react';
+import ColorGrad from './ColorGrad'; // Import the ColorGrad component
 import styles from '../styles/BioBoxExt.module.css';
 import Card from './AhriBioCard';
 
 const AhriBio = () => {
   return (
-    <div>
-      {/* Image Card */}
-      <Card imageUrl="/AhriBios.jpg" title="Ahri The Nine Tailed Fox" />
+    <div className={styles.container}>
+      {/* Render the ColorGrad component as the background */}
+      <ColorGrad />
 
-      {/* Bio Box */}
-      <div className={styles.bioBox}>
-        <p>
+      {/* Content of AhriBio component */}
+      <div className={styles.content}>
+        {/* Image Card */}
+        <Card imageUrl="/AhriBios.jpg" title="Ahri The Nine Tailed Fox" />
+
+        {/* Bio Box */}
+        <div className={styles.bioBox}>
+          <p>
         For most of her life, Ahri's origins were a mystery to her, the history of her vastayan tribe all but lost save for the twin gemstones she has carried her entire life. </p>
 
 <p>Ahri's earliest memories are of running with icefoxes in the northern reaches of Shon-Xan.
@@ -71,7 +76,9 @@ the Vesani, a vastayan tribe that brought innovation and magic to the Blessed Is
 <p>Inspired by their memories, Ahri has set off to travel the world in search of other remnants of the Vesani.
 She hopes to carry their legacy forward, bringing good into the world like they did. No longer burdened by the heavy weight of her regrets,
 she also hopes to finally leave her stolen memories behind and create new memories of her own making.</p>
-        </p>
+</p>
+          {/* Add more paragraphs as needed */}
+        </div>
       </div>
     </div>
   );
