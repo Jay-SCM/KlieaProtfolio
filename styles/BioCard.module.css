@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent; /* Border around the card */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow content */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effect */
+  padding: 20px; /* Add padding around the card */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow on hover */
+}
+
+.imageContainer {
+  width: 100%; /* Full width for the image container */
+  overflow: hidden; /* Hide overflow content */
+  flex: 1; /* Grow to fill the available space */
+}
+
+.image {
+  width: 100%; /* Full width for the image */
+  height: 100%; /* Full height for the image */
+  object-fit: cover; /* Ensure the image covers the container */
+  border-radius: 20px;
+}
+
+.cardContent {
+  padding: 16px; /* Padding for the content */
+}
+
+.cardTitle {
+  margin: 0; /* Remove default margin for the heading */
+}
+
+.cardLink {
+  text-decoration: none; /* Remove underline from link */
+  color: #333; /* Set link color */
+  font-weight: bold; /* Set link font weight */
+  width: 100%; /* Ensure the link takes up full width */
+}
+
+  
+  

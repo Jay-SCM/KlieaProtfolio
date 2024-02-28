@@ -4,7 +4,7 @@ import CardGrid from '../components/CardGrid';
 
 const HomePage = () => {
   const cards = [
-        { id: 1, title: 'Ahri', imageUrl: '/ahri.jpg', linkTo: '/cards/card1' },
+        { id: 1, title: 'Ahri', imageUrl: '/ahri.jpg', linkTo: '/AhriPage' },
         { id: 2, title: 'Bwonsamdi', imageUrl: '/bwonsamdi.jpg', linkTo: '/cards/card2' },
         { id: 3, title: 'Elise', imageUrl: '/elise.jpg', linkTo: '/cards/card3' },
         { id: 4, title: 'Garosh Helscream', imageUrl: '/gar.jpg', linkTo: '/cards/card4' },

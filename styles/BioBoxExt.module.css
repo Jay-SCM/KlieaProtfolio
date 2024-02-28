@@ -1,14 +1,17 @@
-/* styles/BioBox.module.css */
+/* BioBox.module.css */
 
 .bioBox {
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  padding: 20px; /* Adjust padding to keep it from touching the sides */
+  border: 1px solid #686363;
+  border-radius: 8px; /* Adjust border-radius to match the card */
+  background-color: #bdb8b8; /* Light grey background color */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effect */
+  height: 200px; /* Set a fixed height */
+  overflow-y: auto; /* Add vertical scrollbar when content exceeds the height */
+  margin: 20px; /* Add margin to keep it from touching the bottom of the screen */
 }
 
 .bioBox:hover {
-  transform: scale(1.05); /* Zoom effect on hover */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow on hover */
 }
 
@@ -29,3 +32,6 @@
 .bioBox button:hover {
   background-color: #0055b3; /* Darken button background color on hover */
 }
+
+
+

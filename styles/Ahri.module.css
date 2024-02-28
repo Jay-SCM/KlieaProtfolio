@@ -1,0 +1,60 @@
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto; /* Adjust the margin to move the content down */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: rgba(240, 240, 240, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive styles for the video player */
+  .videoPlayerWrapper {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+  }
+  
+  .videoPlayerWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import SylvanasBio from '../../components/SylvanasBio';
+import SylvanasBio from '../../components/AhriBio';
 const Sylvanas = () => {
   return (
     <div>
