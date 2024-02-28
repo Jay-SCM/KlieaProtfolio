@@ -40,5 +40,3 @@ const Ahri = () => {
 };
 
 export default Ahri;
-
-
