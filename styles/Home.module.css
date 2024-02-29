@@ -31,7 +31,7 @@
 
 .navigationButtons {
     position: absolute;
-    top: 130%; /* Position buttons vertically in the middle */
+    top: 70%; /* Position buttons vertically in the middle */
     transform: translateY(-50%);
     display: flex;
     justify-content: space-between; /* Distribute buttons evenly with space between */

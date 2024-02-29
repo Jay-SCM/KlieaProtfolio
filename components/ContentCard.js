@@ -144,7 +144,6 @@
 
 // export default ContentCard;
 
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import styles from '../styles/Home.module.css';
@@ -173,11 +172,11 @@ const ContentCard = ({ children }) => {
             <motion.div
                 className="iconsContainer"
                 style={{
-                    display: 'flex',
                     position: 'fixed',
-                    top: '680px', // Adjust as needed to position the icons vertically
+                    top: '440px', // Adjust as needed to position the icons vertically
                     left: '0',
                     width: '100%',
+                    display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'flex-start' // Align icons to the top of the container
                 }}
@@ -198,7 +197,7 @@ const ContentCard = ({ children }) => {
             </motion.div>
 
             {/* Container for project cards */}
-            <div className="projectCardContainer" style={{ marginTop: '200px' }}>
+            <div className="projectCardContainer" style={{ marginTop: '200px', position: 'fixed', top: '300px' }}>
                 {/* Add project cards here */}
             </div>
         </div>
@@ -206,3 +205,6 @@ const ContentCard = ({ children }) => {
 };
 
 export default ContentCard;
+
+
+

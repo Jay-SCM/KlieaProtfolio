@@ -21,7 +21,7 @@ const Garosh = () => {
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <BioCard
-            imageUrl="/garoshh.jpg"
+            imageUrl="/Garosh.jpg"
             title=""
             description="The Nine-Tailed Fox"
           />
