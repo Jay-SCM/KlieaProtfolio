@@ -1,3 +1,4 @@
+
 .container {
     padding: 20px;
 }
@@ -19,54 +20,45 @@
     max-width: auto;
 }
 
-/* Add style for the paragraphs */
-.ContentCard p {
-    font-size: 1.5rem; /* Adjust font size as needed */
-    line-height: 1.5; /* Adjust line height for better readability */
-    margin-bottom: 15px; /* Add some spacing between paragraphs */
-}
-
 .cardContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Distribute cards evenly with space between */
     align-items: center;
     flex-wrap: wrap;
     position: relative;
+    padding: 20px; /* Add padding here */
 }
 
-/* ... (previous styles) */
-
 .navigationButtons {
+    position: absolute;
+    top: 130%; /* Position buttons vertically in the middle */
+    transform: translateY(-50%);
     display: flex;
+    justify-content: space-between; /* Distribute buttons evenly with space between */
     align-items: center;
-    margin-top: 20px;
+    width: 100%; /* Ensure the buttons cover the entire card container */
+    padding: 0 20px; /* Add padding to the left and right */
 }
 
 .navigationButtons button {
-    background-color: #1a3c9b;
+    background-color: transparent;
     color: #ffffff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    transform: scale(0.06);
+    padding: 0; /* Remove padding to ensure the button size matches width and height */
+    margin: 0; /* Remove margin */
+}
+
+.navigationButtons button img {
+    width: 24px; /* Set width for image */
+    height: 24px; /* Set height for image */
 }
 
 .navigationButtons .leftButton {
-    position: absolute;
-    left: -20px;
+    margin-left: -30px; /* Adjust margin for the left button */
 }
 
 .navigationButtons .rightButton {
-    position: absolute;
-    right: -20px;
-}
-
-.navigationButtons button:hover {
-    background-color: #30579b;
-}
-
-.navigationButtons button:disabled {
-    background-color: #6d6d6d;
-    cursor: not-allowed;
+    margin-right: 50px; /* Adjust margin for the right button */
 }

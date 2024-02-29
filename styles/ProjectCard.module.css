@@ -1,33 +1,81 @@
-
-.projectCard {
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+.projectCardContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center cards horizontally */
+    align-items: flex-start; /* Align cards to the top of the container */
 }
 
+.projectCard {
+    
+    width: calc(80% - 20px); /* Set width to 80% of container width minus margins */
+    max-width: 300px; /* Maximum width for each card */
+    height: 400px; /* Increase height for bigger cards */
+    margin: 10px 21px; /* Set a default margin with increased horizontal spacing */
+    text-align: left; /* Align text to the left for a cleaner look */
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    border-radius: 16px; /* Increase border radius for softer edges */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    position: relative; /* Position relative for absolute positioning */
+    top: -390px; /* Adjust the position of the cards */
+}
+
+
+
 .projectCard:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Increase scale on hover for subtle animation */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
 }
 
 .cardImage {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 1px solid #ccc;
+    width: 100%; /* Ensure the image takes up the entire width of the card */
+    height: 100%; /* Ensure the image takes up the entire height of the card */
+    object-fit: cover; /* Ensure the image covers the entire area while maintaining its aspect ratio */
+    border-radius: 16px 16px 0 0; /* Apply border radius only to the top */
+}
+
+.cardContent {
+    padding: 20px; /* Add padding for better spacing */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Align content to the center */
+    height: 100%; /* Set height to occupy entire card height */
+    color: #fff; /* Change text color to white */
+    background-color: rgba(0, 0, 0, 0); /* Add a semi-transparent background */
+    position: relative; /* Position relative for child positioning */
 }
 
 .cardTitle {
     margin: 10px 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem; /* Increase font size for title */
+    font-weight: bold; /* Make title bold for emphasis */
+    color: #fff; /* Change text color to white */
+    position: absolute; /* Position relative to card */
+    top: -100px; /* Adjust vertical position */
+    left: -240px; /* Adjust horizontal position */
 }
 
 .cardDescription {
     margin-bottom: 10px;
+    font-size: 1rem; /* Decrease font size for description */
+    color: #fff; /* Change text color to white */
+    position: absolute; /* Position relative to card */
+    bottom: 40px; /* Adjust vertical position */
+    left: -240px; /* Adjust horizontal position */
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .projectCard {
+        width: calc(50% - 20px); /* Set width to 50% of container width minus margins */
+    }
+}
+
+
+
+
+
 
 

@@ -1,24 +1,35 @@
-
 .TextCard {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    height: 270px;
-    margin-top: 20px; /* Add margin at the top to push the TextCard down */
+    /* background: linear-gradient(135deg, rgba(255, 106, 191, 0.8), rgba(131, 58, 180, 0.5)); Pink to purple gradient with opacity */
+    /* border-radius: 20px;
+    padding: 30px; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); Subtle shadow */
+    margin-bottom: 120px; /* Increased margin for better spacing */
+    color: #ffffff; /* White text color */
+    margin-top: 120px; /* Move the text card down */
 }
 
 .TextCard p {
-    font-size: 25px;
-    line-height: 1.5;
-    color: #333333;
+    font-size: 24px; /* Increased font size */
+    line-height: 1.6; /* Slightly increased line height for better readability */
+    margin-top: 0px; /* Increased margin between paragraphs */
+    font-weight: 300; /* Light font weight */
 }
 
 .TextCard p:first-child {
     font-weight: bold;
 }
 
-.TextCard p:not(:first-child) {
-    margin-top: 10px;
+.TextCard p:last-child {
+    margin-bottom: 0; /* Remove margin from last paragraph */
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .TextCard {
+        padding: 20px; /* Adjust padding for smaller screens */
+        margin-top: 40px; /* Reduce margin-top for smaller screens */
+    }
+    
+    .TextCard p {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
 }

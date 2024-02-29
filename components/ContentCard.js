@@ -26,7 +26,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }}
     animate={{ opacity: 1, x: '-800%', y: '-70%' }}
-    transition={{ duration: 3, delay: 1 }}
+    transition={{ duration: 1, delay: 1 }}
 />
 
 {/* TypeScript Icon */}
@@ -37,7 +37,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }}
     animate={{ opacity: 1, x: '-650%', y: '-170%' }}
-    transition={{ duration: 3, delay: 2 }}
+    transition={{ duration: 1, delay: 1 }}
 />
 
 {/* MySQL Icon */}
@@ -48,7 +48,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }}
     animate={{ opacity: 1, x: '-520%', y: '-260%' }}
-    transition={{ duration: 3, delay: 3 }}
+    transition={{ duration: 1, delay: 1 }}
 />
 
 {/* Figma Icon */}
@@ -59,7 +59,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }}
     animate={{ opacity: 1, x: '-390%', y: '-365%' }}
-    transition={{ duration: 3, delay: 4 }}
+    transition={{ duration: 1, delay: 1 }}
 />
 
 {/* MUI Icon */}
@@ -70,7 +70,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }}
     animate={{ opacity: 1, x: '-230%', y: '-480%' }}
-    transition={{ duration: 3, delay: 5 }}
+    transition={{ duration: 1, delay: 1 }}
 />
 
 {/* Framer Icon */}
@@ -81,7 +81,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }}
     animate={{ opacity: 1, x: '800%', y: '-560%' }}
-    transition={{ duration: 3, delay: 6 }}
+    transition={{ duration: 1, delay: 1 }}
 />
 
 {/* HTML Icon */}
@@ -92,7 +92,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }}
     animate={{ opacity: 1, x: '700%', y: '-660%' }}
-    transition={{ duration: 3, delay: 7 }}
+    transition={{ duration: 1, delay: 1 }}
 />
             {/* Render an animated image (MySQL Icon) using framer-motion */}
             <motion.img
@@ -102,7 +102,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }} // Initial position and opacity
     animate={{ opacity: 1, x: '600%', y: '-760%' }} // Fade in the image and move into position
-    transition={{ duration: 3, delay: 8 }} // Transition duration and delay
+    transition={{ duration: 1, delay: 1 }} // Transition duration and delay
     whileHover={{ scale: 1.2 }} // Scale up the image when hovered
 />
 
@@ -114,7 +114,7 @@ const ContentCard = ({ children }) => {
     style={{ width: '60px', height: '60px' }}
     initial={{ opacity: 0, x: '-100%', y: '-100%' }} // Initial position and opacity
     animate={{ opacity: 1, x: '480%', y: '-860%' }} // Fade in the image and move into position
-    transition={{ duration: 3, delay: 1 }} // Transition duration and delay
+    transition={{ duration: 1, delay: 1 }} // Transition duration and delay
     whileHover={{ scale: 1.2 }} // Scale up the image when hovered
 />
 
