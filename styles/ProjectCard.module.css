@@ -1,8 +1,11 @@
 .projectCardContainer {
     display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap to the next line */
-    justify-content: center; /* Center cards horizontally */
-    align-items: flex-start; /* Align cards to the top of the container */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: sticky;
+    top: 150px; /* Adjust as needed to position the cards vertically */
+    z-index: 1; /* Ensure cards appear above other content */
 }
 
 .projectCard {
@@ -18,7 +21,7 @@
     transition: transform 0.3s ease-in-out;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
     position: relative; /* Position relative for absolute positioning */
-    top: -390px; /* Adjust the position of the cards */
+    top: 10px; /* Adjust the position of the cards */
 }
 
 
@@ -53,7 +56,7 @@
     font-weight: bold; /* Make title bold for emphasis */
     color: #fff; /* Change text color to white */
     position: absolute; /* Position relative to card */
-    top: -100px; /* Adjust vertical position */
+    top: 300px; /* Adjust vertical position */
     left: -240px; /* Adjust horizontal position */
 }
 
@@ -62,7 +65,7 @@
     font-size: 1rem; /* Decrease font size for description */
     color: #fff; /* Change text color to white */
     position: absolute; /* Position relative to card */
-    bottom: 40px; /* Adjust vertical position */
+    bottom: -360px; /* Adjust vertical position */
     left: -240px; /* Adjust horizontal position */
 }
 

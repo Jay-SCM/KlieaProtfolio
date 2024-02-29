@@ -2,12 +2,12 @@
 import React from 'react';
 import BwonsamdiBio from '../components/BwonsamdiBio'; // Adjust the import path if needed
 
-const BwonsamdiBio = () => {
+const BwonsamdiBioPage = () => {
   return (
     <div>
-      <AhriBio />
+      <BwonsamdiBio />
     </div>
   );
 };
 
-export default BwonsamdiBio;
+export default BwonsamdiBioPage;
