@@ -1,15 +1,15 @@
 import React from 'react';
-import ColorGrad from './ColorGrad'; // Import the ColorGrad component
+import ColorGrad from './ColorGrad'; 
 import styles from '../styles/BioBoxExt.module.css';
 import Card from './AkaliBioCard';
 
 const AkaliBio = () => {
   return (
     <div className={styles.container}>
-      {/* Render the ColorGrad component as the background */}
+      {/* Render ColorGrad  */}
       <ColorGrad />
 
-      {/* Content of AhriBio component */}
+      {/* AhriBio component */}
       <div className={styles.content}>
         {/* Image Card */}
         <Card imageUrl="/Akali_50.jpg" title="Ahri The Nine Tailed Fox" />
@@ -77,7 +77,7 @@ the Vesani, a vastayan tribe that brought innovation and magic to the Blessed Is
 She hopes to carry their legacy forward, bringing good into the world like they did. No longer burdened by the heavy weight of her regrets,
 she also hopes to finally leave her stolen memories behind and create new memories of her own making.</p>
 </p>
-          {/* Add more paragraphs as needed */}
+         
         </div>
       </div>
     </div>

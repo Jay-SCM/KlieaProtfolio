@@ -1,6 +1,5 @@
 import React from 'react';
-import BaneBioComponent from '../components/BaneBio'; // Adjust the import path if needed
-
+import BaneBioComponent from '../components/BaneBio'; 
 const BaneBio = () => {
   return (
     <div>

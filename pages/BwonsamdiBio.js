@@ -1,7 +1,6 @@
 
 import React from 'react';
-import BwonsamdiBio from '../components/BwonsamdiBio'; // Adjust the import path if needed
-
+import BwonsamdiBio from '../components/BwonsamdiBio'; 
 const BwonsamdiBioPage = () => {
   return (
     <div>

@@ -2,16 +2,17 @@
 import React, { useState, useEffect } from 'react';
 // Importing Fuse library for fuzzy searching
 import Fuse from 'fuse.js';
-// Importing CodeSnippet component
+
 import CodeSnippet from './CodeSnippet';
-// Importing styles module for CodeSnippetList component
+
 import styles from '../styles/CodeSnippetList.module.css'; 
 
 // Declaring CodeSnippetList component, which takes snippets as props
 const CodeSnippetList = ({ snippets }) => {
   // Initializing state variables for search results and displayed snippet
   const [searchResults, setSearchResults] = useState([]);
-  const [displayedSnippet, setDisplayedSnippet] = useState(null); // State to track the displayed snippet
+  const [displayedSnippet, setDisplayedSnippet] = useState(null); 
+  // State to track the displayed snippet
 
   // Creating a new instance of Fuse for fuzzy searching with given options
   const fuse = new Fuse(snippets, {
@@ -25,10 +26,10 @@ const CodeSnippetList = ({ snippets }) => {
     // If query is empty, reset search results and displayed snippet
     if (!query) {
       setSearchResults([]);
-      setDisplayedSnippet(null); // Reset displayed snippet when clearing the search
+      setDisplayedSnippet(null); 
+      // Reset displayed snippet when clearing the search
       return;
     }
-
     // Perform search with Fuse and update search results
     const results = fuse.search(query);
     setSearchResults(results.map(result => result.item));
@@ -37,11 +38,14 @@ const CodeSnippetList = ({ snippets }) => {
   // Effect hook to automatically display the first search result or reset displayed snippet
   useEffect(() => {
     if (searchResults.length > 0) {
-      setDisplayedSnippet(searchResults[0]); // Display the first search result automatically
+      setDisplayedSnippet(searchResults[0]); 
+      // Display the first search result automatically
     } else {
-      setDisplayedSnippet(null); // Reset displayed snippet if there are no search results
+      setDisplayedSnippet(null); 
+      // Reset again
     }
-  }, [searchResults]); // Trigger effect when search results change
+  }, [searchResults]);
+   // Trigger effect when search results change
 
   // Rendering JSX for the CodeSnippetList component
   return (
@@ -63,8 +67,6 @@ const CodeSnippetList = ({ snippets }) => {
     </div>
   );
 };
-
-// Exporting the CodeSnippetList component to be used in other parts of the application
 export default CodeSnippetList;
 
 

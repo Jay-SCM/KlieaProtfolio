@@ -1,6 +1,6 @@
 
 import React from 'react';
-import EliseBio from '../components/EliseBio'; // Adjust the import path if needed
+import EliseBio from '../components/EliseBio'; 
 
 const EliseBioPage = () => {
   return (

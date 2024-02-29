@@ -1,42 +1,41 @@
 
-
 .snippetContainer {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px auto; /* Center the card horizontally */
-    max-width: 600px; /* Set maximum width */
-    background-color: #f9f9f9;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition for smooth effect */
-  }
+  border: 2px solid #4caf4f05; /* Green border */
+  border-radius: 15px; /* Increase border radius for a softer look */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #aca4a4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect for the snippet container */
+.snippetContainer:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+
   
-  .displayedCard {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px auto; /* Center the card horizontally */
-    max-width: 600px; /* Set maximum width */
-    background-color: rgba(240, 240, 240, 0.7); /* Light grey semi-transparent background */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition for smooth effect */
-  }
-  
-  .snippetContainer:hover,
-  .displayedCard:hover {
-    background-color: #eaeaea; /* Change background color on hover */
-    transform: scale(1.02); /* Slight zoom effect on hover */
-  }
-  
-  .title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .code {
-    font-family: 'Courier New', Courier, monospace;
-    white-space: pre-wrap;
-  }
-  
+}
+
+.title {
+  font-size: 24px; /* Increase font size for the title */
+  font-weight: bold;
+  margin-bottom: 20px; /* Increase margin-bottom for spacing */
+  color: #e41313; /* Green color for the title */
+  text-align: center; /* Center-align the title */
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  background-color: #5e4e4e71; /* Light gray background */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners for code block */
+  overflow-x: auto;
+  margin-top: 20px; /* Increase top margin for spacing */
+}
+
+
   
   
   

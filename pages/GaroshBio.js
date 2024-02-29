@@ -1,6 +1,6 @@
 
 import React from 'react';
-import GaroshBio from '../components/GaroshBio'; // Adjust the import path if needed
+import GaroshBio from '../components/GaroshBio'; 
 
 const GaroshBioPage = () => {
   return (

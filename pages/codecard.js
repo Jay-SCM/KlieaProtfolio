@@ -1,7 +1,8 @@
 
 import React from 'react';
 import CodeSnippetList from '../components/CodeSnippetList';
-
+import styles from '../styles/CodeCard.module.css';
+import ColorGrad from '../components/ColorGrad'; 
 
 const snippets = [
   { id: 1, title: 'For Loop JavaScript', code: `
@@ -76,13 +77,20 @@ export default Home;
 ` },
 ];
 
-const Home = () => {
+const CodeCard = () => {
   return (
-    <div>
-      <h1>Code Snippets</h1>
+    <div className={styles.container} style={{ backgroundColor: 'transparent', borderRadius: '15px', padding: '20px', transition: 'box-shadow 0.3s ease', border: '1px solid transparent' }}>
+      <ColorGrad />
+      <h1 className={styles.title} style={{ marginTop: '100px', marginRight: '20px', color: '#333' }}>Code Snippets</h1>
       <CodeSnippetList snippets={snippets} />
     </div>
   );
 };
 
-export default Home;
+export default CodeCard;
+
+
+
+
+
+

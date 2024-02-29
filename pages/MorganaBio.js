@@ -1,7 +1,7 @@
-// pages/AhriBio.js
+
 
 import React from 'react';
-import AhriBio from '../components/AhriBio'; // Adjust the import path if needed
+import AhriBio from '../components/AhriBio';
 
 const AhriBioPage = () => {
   return (

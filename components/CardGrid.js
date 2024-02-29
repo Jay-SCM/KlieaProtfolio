@@ -1,25 +1,4 @@
-// // components/HeroCard.js
-// import React from 'react';
 
-
-// const HeroCard = ({ imageUrl, title }) => {
-//   return (
-//     <div className={styles.heroCard}>
-//       <div className={styles.imageContainer}>
-//         <img src={imageUrl} alt={title} className={styles.image} />
-//       </div>
-//       <div className={styles.cardContent}>
-//         <h3>{title}</h3>
-//         <p className={styles.cardLink}>Go to {title}</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default HeroCard;
-
-
-// components/CardGrid.js
 import React from 'react';
 import styles from '../styles/CardGrid.module.css';
 import Link from 'next/link';

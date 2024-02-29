@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Garosh from '../components/Garosh'; // Adjust the import path if needed
+import Garosh from '../components/Garosh'; 
 
 const GaroshPage = () => {
   return (
