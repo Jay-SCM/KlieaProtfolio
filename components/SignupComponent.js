@@ -10,8 +10,9 @@ const SignupComponent = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/api/signup', { username, password });
-      // Handle successful signup, e.g., redirect to chat page
+      const response = await axios.post('/api/signup', { username, password });
+      console.log(response.data);
+      // Handle successful signup, e.g., redirect the user to another page
     } catch (error) {
       setError(error.response.data.message);
     }
@@ -19,26 +20,18 @@ const SignupComponent = () => {
 
   return (
     <div>
-      <h2>Sign Up</h2>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      <h2>Signup</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Username:</label>
-          <input
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
+          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
         </div>
         <div>
           <label>Password:</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </div>
-        <button type="submit">Sign Up</button>
+        {error && <p style={{ color: 'red' }}>{error}</p>}
+        <button type="submit">Signup</button>
       </form>
     </div>
   );
