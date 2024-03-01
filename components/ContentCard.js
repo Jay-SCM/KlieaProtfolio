@@ -6,16 +6,16 @@ import TextCard from './TextCard';
 const ContentCard = ({ children }) => {
     // array of icon and properties
     const icons = [
-        { src: "/js.png", alt: "JavaScript Icon", x: 0 },
-        { src: "/ts.png", alt: "TypeScript Icon", x: 80 },
-        { src: "/mysql.png", alt: "MySQL Icon", x: 160 },
-        { src: "/figma.png", alt: "Figma Icon", x: 240 },
-        { src: "/mui.png", alt: "MUI Icon", x: 320 },
-        { src: "/framer.png", alt: "Framer Icon", x: 400 },
-        { src: "/html.png", alt: "HTML Icon", x: 480 },
-        { src: "/mongodb.png", alt: "MongoDB Icon", x: 560 },
-        { src: "/next.png", alt: "Next.js Icon", x: 640 },
-        { src: "/node-js.png", alt: "Node.js Icon", x: 720 }
+        { src: "/js.png", alt: "JavaScript Icon", x: -550 },
+        { src: "/ts.png", alt: "TypeScript Icon", x: -400 },
+        { src: "/mysql.png", alt: "MySQL Icon", x: -300 },
+        { src: "/figma.png", alt: "Figma Icon", x: -200 },
+        { src: "/mui.png", alt: "MUI Icon", x: -100 },
+        { src: "/framer.png", alt: "Framer Icon", x: 80 },
+        { src: "/html.png", alt: "HTML Icon", x: 200 },
+        { src: "/mongodb.png", alt: "MongoDB Icon", x: 300 },
+        { src: "/next.png", alt: "Next.js Icon", x: 400 },
+        { src: "/node-js.png", alt: "Node.js Icon", x: 500 }
     ];
 
     return (
@@ -43,9 +43,9 @@ const ContentCard = ({ children }) => {
                         alt={icon.alt}
                         className="animatedIcon"
                         style={{ width: '60px', height: '60px' }}
-                        initial={{ opacity: 0, y: '-50px' }} // Start off the screen above the cards
+                        initial={{ opacity: 0, y: '-40px' }} // Start off the screen above the cards
                         animate={{ opacity: 1, x: `${icon.x}px` }} // Slide into place from the left
-                        transition={{ duration: 0.5, delay: 0.1 * index }} // Quick transition with a slight delay
+                        transition={{ duration: 1, delay: 1 * index }} // Quick transition with a slight delay
                     />
                 ))}
             </motion.div>
