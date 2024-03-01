@@ -1,8 +1,9 @@
-// components/LoginComponent.js
 import { useState } from 'react';
 import axios from 'axios';
+import { useRouter } from 'next/router';
 
 const LoginComponent = () => {
+  const router = useRouter();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -12,7 +13,8 @@ const LoginComponent = () => {
     try {
       const response = await axios.post('/api/login', { username, password });
       console.log(response.data);
-      // Handle successful login, e.g., redirect the user to another page
+      // Redirect to ChatPage.js on successful login
+      router.push('/ChatPage'); // Change '/ChatPage.js' to the actual URL of your chat page
     } catch (error) {
       setError(error.response.data.message);
     }
@@ -38,3 +40,5 @@ const LoginComponent = () => {
 };
 
 export default LoginComponent;
+
+

@@ -4,7 +4,7 @@ import mysql from 'mysql';
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Hisako1086',
+    password: 'password',
     database: 'nextjs_chat'
 });
 
