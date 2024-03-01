@@ -11,7 +11,7 @@ const Home = () => {
         { title: "Project 1", description: "Hero Selector BIO", imageUrl: "/ahri.jpg", href: "/heroCard" },
         { title: "Project 2", description: "Weather Application", imageUrl: "/ahri.jpg", href: "/weather" },
         { title: "Project 3", description: "CodeSnippets", imageUrl: "/ahri.jpg", href: "/codecard" },
-        { title: "Project 4", description: "Chat Application", imageUrl: "/ahri.jpg", href: "PLACEHOLDER" },
+        { title: "Project 4", description: "Chat Application", imageUrl: "/ahri.jpg", href: "/ChatApp" },
         { title: "Project 5", description: "PLACEHOLDER 1", imageUrl: "/ahri.jpg", href: "PLACEHOLDER 1" },
         { title: "Project 6", description: "PLACEHOLDER 2", imageUrl: "/ahri.jpg", href: "PLACEHOLDER 2" },
         // more projects as needed
