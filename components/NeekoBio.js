@@ -6,10 +6,10 @@ import Card from './AhriBioCard';
 const AhriBio = () => {
   return (
     <div className={styles.container}>
-      {/* Render the ColorGrad component as the background */}
+      
       <ColorGrad />
 
-      {/* Content of AhriBio component */}
+    
       <div className={styles.content}>
         {/* Image Card */}
         <Card imageUrl="/AhriBios.jpg" title="Ahri The Nine Tailed Fox" />

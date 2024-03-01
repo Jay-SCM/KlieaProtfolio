@@ -1,10 +1,12 @@
-// pages/signup.js
+
+import React from 'react';
+import ColorGrad from '../components/ColorGrad';
 import SignupComponent from '../components/SignupComponent';
 
 const SignupPage = () => {
   return (
     <div>
-      <h1>Signup Page</h1>
+      <ColorGrad />
       <SignupComponent />
     </div>
   );

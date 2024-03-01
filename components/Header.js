@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.card}>
-        <TextCard /> {/* Render the TextCard component */}
+        <TextCard /> 
       </div>
     </header>
   );

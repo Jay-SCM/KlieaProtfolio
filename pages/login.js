@@ -1,12 +1,13 @@
-// pages/login.js
-import Link from 'next/link';
 
 import LoginComponent from '../components/LoginComponent';
+import ColorGrad from '../components/ColorGrad'; 
+import Link from 'next/link';
 
 const LoginPage = () => {
   return (
     <div>
-      <h1>Login Page</h1>
+      <ColorGrad />   
+      
       <LoginComponent />
       <Link href="/signup">
         <button>Signup</button>
@@ -14,6 +15,6 @@ const LoginPage = () => {
     </div>
   );
 };
-
 export default LoginPage;
+
 

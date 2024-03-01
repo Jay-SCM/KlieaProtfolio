@@ -1,13 +1,13 @@
-// pages/ChatPage.js
-import ChatComponent from '../components/ChatComponent';
 
+import ChatComponent from '../components/ChatComponent';
+import ColorGrad from '../components/ColorGrad';
 const ChatPage = () => {
     return (
-        <div>
+        <div> 
+            <ColorGrad />
             <h1>Chat Page</h1>
             <ChatComponent />
         </div>
     );
 };
-
 export default ChatPage;

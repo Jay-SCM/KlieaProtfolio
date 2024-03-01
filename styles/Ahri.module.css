@@ -2,7 +2,7 @@
 
 .container {
     max-width: 800px;
-    margin: 50px auto; /* Adjust the margin to move the content down */
+    margin: 50px auto; 
     padding: 20px;
     text-align: center;
   }

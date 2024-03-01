@@ -9,7 +9,7 @@ const GaroshBio = () => {
       
       <ColorGrad />
 
-      {/* Content of AhriBio component */}
+      
       <div className={styles.content}>
         {/* Image Card */}
         <Card imageUrl="/garossh.jpg" title="Ahri The Nine Tailed Fox" />

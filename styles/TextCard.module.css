@@ -1,18 +1,15 @@
 .TextCard {
-    /* background: linear-gradient(135deg, rgba(255, 106, 191, 0.8), rgba(131, 58, 180, 0.5)); Pink to purple gradient with opacity */
-    /* border-radius: 20px;
-    padding: 30px; */
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); Subtle shadow */
-    margin-bottom: 120px; /* Increased margin for better spacing */
-    color: #ffffff; /* White text color */
-    margin-top: 120px; /* Move the text card down */
+ 
+    margin-bottom: 120px; 
+    color: #ffffff; 
+    margin-top: 120px; 
 }
 
 .TextCard p {
-    font-size: 24px; /* Increased font size */
-    line-height: 1.6; /* Slightly increased line height for better readability */
-    margin-top: 0px; /* Increased margin between paragraphs */
-    font-weight: 300; /* Light font weight */
+    font-size: 24px; 
+    line-height: 1.6; 
+    margin-top: 0px; 
+    font-weight: 300; 
 }
 
 .TextCard p:first-child {
@@ -20,16 +17,16 @@
 }
 
 .TextCard p:last-child {
-    margin-bottom: 0; /* Remove margin from last paragraph */
+    margin-bottom: 0; 
 }
-/* Media query for smaller screens */
+
 @media screen and (max-width: 768px) {
     .TextCard {
-        padding: 20px; /* Adjust padding for smaller screens */
-        margin-top: 40px; /* Reduce margin-top for smaller screens */
+        padding: 20px; 
+        margin-top: 40px; 
     }
     
     .TextCard p {
-        font-size: 20px; /* Decrease font size for smaller screens */
+        font-size: 20px; 
     }
 }
