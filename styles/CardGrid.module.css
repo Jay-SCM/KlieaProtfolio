@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px;
+    margin-top: 80px;
   }
   
   .card {
@@ -30,6 +31,7 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
+    
   }
   
   .cardTitle {
