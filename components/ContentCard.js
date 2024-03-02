@@ -5,6 +5,7 @@ import TextCard from './TextCard';
 
 const ContentCard = ({ children }) => {
     // array of icon and properties
+    // x is the horizontal position of the icon BEFORE ANIMATION
     const icons = [
         { src: "/js.png", alt: "JavaScript Icon", x: -550 },
         { src: "/ts.png", alt: "TypeScript Icon", x: -400 },
@@ -17,6 +18,7 @@ const ContentCard = ({ children }) => {
         { src: "/next.png", alt: "Next.js Icon", x: 400 },
         { src: "/node-js.png", alt: "Node.js Icon", x: 500 }
     ];
+    // add more icons here as needed 
 
     return (
         <div className={styles.ContentCard}>
