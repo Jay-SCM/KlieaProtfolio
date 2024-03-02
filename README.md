@@ -1,11 +1,17 @@
 KliePortfolio
 
-Table of Contents
-Features
-Getting Started
-Prerequisites
-Installation
-Usage
+Table of Contents,
+
+Features,
+
+Getting Started.
+
+Prerequisites,
+
+Installation.
+
+Usage,
+
 Features
 
 User Authentication:
